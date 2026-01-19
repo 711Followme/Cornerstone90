@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://layout.dev/assets/templates/layout.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>CORNERSTONE: 90 - Built on the Rock</title>
+    <meta name="description" content="A 90-day spiritual transformation journey for men. Build your life on Christ, the Cornerstone." />
+    <meta name="author" content="Layout" />
+
+    <meta property="og:title" content="CORNERSTONE: 90" />
+    <meta property="og:description" content="A 90-day spiritual transformation journey for men." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://layout.dev/assets/images/og-image.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@layout_dev" />
+    <meta name="twitter:image" content="https://layout.dev/assets/images/og-image.jpg" />
+
+    <!-- Eruda Mobile DevTools -->
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>
+      // Initialize Eruda mobile debugging console
+      eruda.init();
+      console.log('📱 Eruda mobile console initialized');
+      console.log('Tap the Eruda button (bottom right) to open console');
+    </script>
+
+    <style>
+      /* Loading screen while JS loads */
+      #app-loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      #app-loading.loaded {
+        display: none;
+      }
+      .loader {
+        width: 48px;
+        height: 48px;
+        border: 4px solid #D97706;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+      }
+      @keyframes rotation {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .error-message {
+        color: #DC2626;
+        text-align: center;
+        padding: 20px;
+        max-width: 500px;
+        margin: 20px;
+        background: #FEE2E2;
+        border-radius: 8px;
+        border: 1px solid #FCA5A5;
+      }
+      /* Fix iOS Safari viewport issues */
+      body {
+        -webkit-overflow-scrolling: touch;
+      }
+      /* Ensure Eruda button is accessible */
+      #eruda {
+        z-index: 10000 !important;
+      }
+    </style>
+
+    <script>
+      // Error handling for mobile
+      window.addEventListener('error', function(e) {
+        console.error('❌ Global error:', e.error);
+        console.error('Message:', e.message);
+        console.error('File:', e.filename);
+        console.error('Line:', e.lineno);
+        var loadingDiv = document.getElementById('app-loading');
+        if (loadingDiv) {
+          loadingDiv.innerHTML = '<div class="error-message"><h2>Error Loading App</h2><p>' + e.message + '</p><p><small>Open Eruda console (tap button bottom-right) for details</small></p></div>';
+        }
+      });
+
+      // Unhandled promise rejections
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('❌ Unhandled promise rejection:', e.reason);
+      });
+
+      // Hide loading screen when React loads
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var loadingDiv = document.getElementById('app-loading');
+          if (loadingDiv && document.getElementById('root').children.length > 0) {
+            loadingDiv.classList.add('loaded');
+            console.log('✅ App loaded successfully');
+          }
+        }, 500);
+      });
+
+      // Log initial page load
+      console.log('🏛️ CORNERSTONE: 90 - Initializing...');
+      console.log('Device:', navigator.userAgent);
+      console.log('Screen:', window.screen.width + 'x' + window.screen.height);
+      console.log('Viewport:', window.innerWidth + 'x' + window.innerHeight);
+    </script>
+  </head>
+  <body>
+    <div id="app-loading">
+      <span class="loader"></span>
+      <p style="margin-top: 20px; color: #6B7280;">Loading CORNERSTONE: 90...</p>
+      <p style="margin-top: 10px; font-size: 12px; color: #9CA3AF;">Tap Eruda button (bottom-right) for console</p>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
