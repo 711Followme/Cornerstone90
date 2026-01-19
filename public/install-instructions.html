@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Install Cornerstone: 90 - Get the App</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #1E40AF 0%, #374151 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: #1E40AF;
+      border-radius: 16px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+
+    h1 {
+      color: #374151;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      color: #D97706;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    .section {
+      margin: 40px 0;
+    }
+
+    .section h2 {
+      color: #1E40AF;
+      font-size: 24px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .platform-card {
+      background: #F9FAFB;
+      border: 2px solid #E5E7EB;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    .platform-card h3 {
+      color: #374151;
+      font-size: 20px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      margin: 0;
+    }
+
+    .steps li {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 16px;
+      color: #374151;
+      line-height: 1.6;
+    }
+
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 28px;
+      height: 28px;
+      background: #1E40AF;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .benefit {
+      background: #EFF6FF;
+      border-left: 4px solid #1E40AF;
+      padding: 16px;
+      border-radius: 8px;
+    }
+
+    .benefit-icon {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .benefit-title {
+      color: #1E40AF;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .benefit-text {
+      color: #6B7280;
+      font-size: 13px;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #D97706 0%, #B45309 100%);
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: white;
+      color: #D97706;
+      padding: 16px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: transform 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .note {
+      background: #FEF3C7;
+      border-left: 4px solid #F59E0B;
+      padding: 16px;
+      border-radius: 8px;
+      color: #92400E;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🏛️</div>
+      <h1>Install Cornerstone: 90</h1>
+      <p class="tagline">Built on Christ. Rebuilt in Him. Standing Firm.</p>
+    </div>
+
+    <div class="section">
+      <h2>📱 Why Install the App?</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div class="benefit-icon">🏠</div>
+          <div class="benefit-title">Home Screen Access</div>
+          <div class="benefit-text">Quick access with one tap</div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">🔔</div>
+          <div class="benefit-title">Push Notifications</div>
+          <div class="benefit-text">Daily reading & workout reminders</div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">📵</div>
+          <div class="benefit-title">Works Offline</div>
+          <div class="benefit-text">Access content anywhere</div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">📱</div>
+          <div class="benefit-title">App-Like Experience</div>
+          <div class="benefit-text">No browser bar</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🍎 iPhone & iPad (Safari)</h2>
+      <div class="platform-card">
+        <h3>📲 Installation Steps</h3>
+        <ol class="steps">
+          <li>Open <strong>Cornerstone: 90</strong> in Safari browser</li>
+          <li>Tap the <strong>Share</strong> button (box with arrow) at the bottom</li>
+          <li>Scroll down and tap <strong>"Add to Home Screen"</strong></li>
+          <li>Tap <strong>Add</strong> in the top right</li>
+          <li>The app icon appears on your home screen! 🎉</li>
+        </ol>
+      </div>
+      <div class="note">
+        <strong>⚠️ Important:</strong> Must use Safari browser on iOS. Installation from Chrome/Firefox won't work on iPhone.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🤖 Android (Chrome)</h2>
+      <div class="platform-card">
+        <h3>📲 Installation Steps</h3>
+        <ol class="steps">
+          <li>Open <strong>Cornerstone: 90</strong> in Chrome browser</li>
+          <li>Tap the <strong>menu</strong> button (3 dots in top right)</li>
+          <li>Tap <strong>"Add to Home Screen"</strong> or <strong>"Install App"</strong></li>
+          <li>Tap <strong>Install</strong> to confirm</li>
+          <li>The app appears in your app drawer! 🎉</li>
+        </ol>
+      </div>
+      <div class="note">
+        <strong>💡 Tip:</strong> You may also see an automatic install banner at the bottom of the screen. Just tap "Install"!
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🔔 Enable Notifications</h2>
+      <div class="platform-card">
+        <h3>Get Daily Reminders</h3>
+        <ol class="steps">
+          <li>Open the app (from your home screen)</li>
+          <li>Go to <strong>Profile</strong> page (at bottom of sidebar)</li>
+          <li>Find the <strong>"Push Notifications"</strong> section</li>
+          <li>Toggle the switch to <strong>ON</strong></li>
+          <li>Grant permission when your browser asks</li>
+        </ol>
+        <div style="margin-top: 20px; padding: 16px; background: #EFF6FF; border-radius: 8px;">
+          <strong style="color: #1E40AF;">📅 Notification Schedule:</strong>
+          <ul style="margin-top: 10px; color: #374151; line-height: 2;">
+            <li><strong>5:00 AM CT</strong> - Daily Scripture reading reminder</li>
+            <li><strong>6:00 PM CT</strong> - Daily workout reminder</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💻 Desktop Installation</h2>
+      <div class="platform-card">
+        <h3>🖥️ Chrome, Edge, or Brave</h3>
+        <ol class="steps">
+          <li>Look for the <strong>install icon</strong> (⊕ or 💾) in the address bar</li>
+          <li>Click it and select <strong>"Install"</strong></li>
+          <li>The app opens in its own window</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>🚀 Ready to Start Your Journey?</h3>
+      <p style="margin-bottom: 24px; opacity: 0.9;">90 days to build what lasts. Built on the solid foundation of Christ.</p>
+      <a href="/" class="cta-button">Open Cornerstone: 90 →</a>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; color: #6B7280; font-size: 14px;">
+      <p><strong>Need help?</strong> Email us at admin@cornerstone90.com</p>
+      <p style="margin-top: 10px;">© 2024 Cornerstone: 90. Built for Men's Alliance.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAPID Key Generator - Cornerstone: 90</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #1E40AF 0%, #374151 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+      width: 100%;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #374151;
+      font-size: 28px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      background: #D97706;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    p {
+      color: #6B7280;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    button {
+      background: #1E40AF;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background: #1E3A8A;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+    }
+
+    button:disabled {
+      background: #9CA3AF;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .keys-container {
+      display: none;
+      margin-top: 30px;
+    }
+
+    .keys-container.show {
+      display: block;
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .key-box {
+      background: #F9FAFB;
+      border: 2px solid #E5E7EB;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .key-box h3 {
+      color: #374151;
+      font-size: 16px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .key-box.public h3::before {
+      content: "🔓";
+    }
+
+    .key-box.private h3::before {
+      content: "🔒";
+    }
+
+    .key-value {
+      background: white;
+      border: 1px solid #D1D5DB;
+      border-radius: 6px;
+      padding: 12px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      word-break: break-all;
+      color: #1E40AF;
+      margin-bottom: 10px;
+      max-height: 100px;
+      overflow-y: auto;
+    }
+
+    .copy-button {
+      background: #D97706;
+      padding: 8px 16px;
+      font-size: 14px;
+      width: auto;
+      margin: 0;
+    }
+
+    .copy-button:hover {
+      background: #B45309;
+    }
+
+    .warning {
+      background: #FEF3C7;
+      border-left: 4px solid #F59E0B;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .warning h4 {
+      color: #92400E;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .warning p {
+      color: #92400E;
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .instructions {
+      background: #EFF6FF;
+      border-left: 4px solid #1E40AF;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .instructions h4 {
+      color: #1E40AF;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .instructions ol {
+      color: #1E3A8A;
+      font-size: 13px;
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    .success {
+      background: #D1FAE5;
+      color: #065F46;
+      padding: 12px;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 10px;
+      display: none;
+    }
+
+    .success.show {
+      display: block;
+      animation: slideIn 0.3s ease;
+    }
+
+    .env-format {
+      background: #374151;
+      color: #F9FAFB;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .env-format .comment {
+      color: #9CA3AF;
+    }
+
+    .env-format .key {
+      color: #34D399;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <span class="icon">🔑</span>
+      VAPID Key Generator
+    </h1>
+    <p>Generate VAPID (Voluntary Application Server Identification) keys for push notifications in your Cornerstone: 90 PWA.</p>
+
+    <button id="generateBtn" onclick="generateKeys()">
+      🎲 Generate VAPID Keys
+    </button>
+
+    <div id="keysContainer" class="keys-container">
+      <div class="key-box public">
+        <h3>Public Key</h3>
+        <p style="font-size: 13px; color: #6B7280; margin-bottom: 10px;">Safe to expose in your frontend code. Add to .env file:</p>
+        <div class="key-value" id="publicKey"></div>
+        <button class="copy-button" onclick="copyKey('publicKey')">📋 Copy Public Key</button>
+        <div id="publicSuccess" class="success">✅ Copied to clipboard!</div>
+      </div>
+
+      <div class="key-box private">
+        <h3>Private Key</h3>
+        <p style="font-size: 13px; color: #6B7280; margin-bottom: 10px;">⚠️ KEEP SECRET! Never commit to git. Backend only:</p>
+        <div class="key-value" id="privateKey"></div>
+        <button class="copy-button" onclick="copyKey('privateKey')">📋 Copy Private Key</button>
+        <div id="privateSuccess" class="success">✅ Copied to clipboard!</div>
+      </div>
+
+      <div class="env-format">
+        <div class="comment"># Add these to your .env file:</div>
+        <div><span class="key">VITE_VAPID_PUBLIC_KEY</span>=<span id="envPublic"></span></div>
+        <div><span class="key">VAPID_PRIVATE_KEY</span>=<span id="envPrivate"></span></div>
+      </div>
+
+      <div class="warning">
+        <h4>⚠️ Security Warning</h4>
+        <p><strong>NEVER commit the VAPID_PRIVATE_KEY to version control!</strong> Keep it in your .env file and add .env to .gitignore. Store it securely in your production environment variables.</p>
+      </div>
+
+      <div class="instructions">
+        <h4>📝 Next Steps:</h4>
+        <ol>
+          <li>Create a <code>.env</code> file in your project root (if you don't have one)</li>
+          <li>Copy both keys above and paste them into your .env file</li>
+          <li>Make sure <code>.env</code> is in your .gitignore file</li>
+          <li>Restart your development server</li>
+          <li>Your push notifications will now use these keys for authentication</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function generateKeys() {
+      const btn = document.getElementById('generateBtn');
+      btn.disabled = true;
+      btn.textContent = '⏳ Generating keys...';
+
+      try {
+        // Generate ECDSA P-256 key pair
+        const keyPair = await crypto.subtle.generateKey(
+          {
+            name: 'ECDSA',
+            namedCurve: 'P-256'
+          },
+          true,
+          ['sign', 'verify']
+        );
+
+        // Export public key
+        const publicKeyBuffer = await crypto.subtle.exportKey('spki', keyPair.publicKey);
+        const publicKeyBase64 = arrayBufferToBase64(publicKeyBuffer);
+        const publicKeyUrlSafe = base64ToUrlSafe(publicKeyBase64);
+
+        // Export private key
+        const privateKeyBuffer = await crypto.subtle.exportKey('pkcs8', keyPair.privateKey);
+        const privateKeyBase64 = arrayBufferToBase64(privateKeyBuffer);
+        const privateKeyUrlSafe = base64ToUrlSafe(privateKeyBase64);
+
+        // Display keys
+        document.getElementById('publicKey').textContent = publicKeyUrlSafe;
+        document.getElementById('privateKey').textContent = privateKeyUrlSafe;
+        document.getElementById('envPublic').textContent = publicKeyUrlSafe;
+        document.getElementById('envPrivate').textContent = privateKeyUrlSafe;
+        document.getElementById('keysContainer').classList.add('show');
+
+        btn.textContent = '✅ Keys Generated!';
+        setTimeout(() => {
+          btn.disabled = false;
+          btn.textContent = '🔄 Regenerate Keys';
+        }, 2000);
+
+      } catch (error) {
+        console.error('Error generating keys:', error);
+        alert('Error generating keys. Make sure you\'re using a modern browser with Web Crypto API support.');
+        btn.disabled = false;
+        btn.textContent = '🎲 Generate VAPID Keys';
+      }
+    }
+
+    function arrayBufferToBase64(buffer) {
+      const bytes = new Uint8Array(buffer);
+      let binary = '';
+      for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      return btoa(binary);
+    }
+
+    function base64ToUrlSafe(base64) {
+      return base64
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=/g, '');
+    }
+
+    async function copyKey(keyId) {
+      const keyElement = document.getElementById(keyId);
+      const successElement = document.getElementById(keyId + 'Success');
+      
+      try {
+        await navigator.clipboard.writeText(keyElement.textContent);
+        successElement.classList.add('show');
+        setTimeout(() => {
+          successElement.classList.remove('show');
+        }, 3000);
+      } catch (error) {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = keyElement.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        successElement.classList.add('show');
+        setTimeout(() => {
+          successElement.classList.remove('show');
+        }, 3000);
+      }
+    }
+  </script>
+</body>
+</html>
