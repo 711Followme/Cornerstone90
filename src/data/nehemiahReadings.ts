@@ -282,7 +282,119 @@ const readings: DailyReading[] = [
     application: "Today is full Sabbath rest. No rebuilding. No planning. No gate work. Just rest and worship. Here's your assignment: Find a place where you can be alone with God (not in your house if possible - go somewhere). Bring your journal. Write down everything you've worked on these 21 days - your gate, your disciplines, your struggles, your victories. Then write across the top: 'Lord, I've been faithful. Now I trust You to build.' Pray this out loud. Then close the journal. For the rest of the day, don't think about your gate. Don't plan next week's strategy. Don't worry about your progress. Just REST. Worship. Spend time with family. Read for pleasure. Take a nap. Enjoy a meal. Remember: He gives sleep to the one He loves. You are loved. You can rest.",
     prayer: "Father, I surrender my work to You. I've been faithful these 21 days. I've identified my gate. I've worked alongside my brothers. I've built on Christ the Cornerstone. I've upgraded my materials. I've endured the testing. I've fixed my eyes on Jesus. Now I trust You to build. Unless You build, I'm laboring in vain. So I rest. I stop striving. I stop trying to control the outcome. I lay down my need to see immediate results. I trust that You're building even when I can't see it. Thank You for giving sleep to the one You love. I am loved by You. I can rest in that truth. Build my house, Lord. I'm just here to obey, to show up, to lay the stones You place in front of me. But You're the Builder. You're the Architect. You're the Finisher. I rest in You. In Jesus name, Amen.",
     mensAllianceValue: "Humility: It's better to under sell and over deliver. - Sabbath rest is ultimate humility, admitting that unless the Lord builds, our efforts are in vain. We rest in His love, not our performance."
+  },
+  
+  {
+    day: 22,
+    book: "Nehemiah",
+    chapter: 4,
+    verses: "1-23",
+    title: "Progress in Spite of Opposition",
+    passage: `Progress in Spite of Opposition
+4 [a]When Sanballat heard that we were rebuilding the wall, he became furious. He mocked the Jews 2 before his colleagues and the powerful men[b] of Samaria, and said, “What are these pathetic Jews doing? Can they restore it by themselves? Will they offer sacrifices? Will they ever finish it? Can they bring these burnt stones back to life from the mounds of rubble?” 3 Then Tobiah the Ammonite, who was beside him, said, “Indeed, even if a fox climbed up what they are building, he would break down their stone wall!”
+
+4 Listen, our God, for we are despised. Make their insults return on their own heads and let them be taken as plunder to a land of captivity. 5 Do not cover their guilt or let their sin be erased from Your sight, because they have provoked[c] the builders.
+
+6 So we rebuilt the wall until the entire wall was joined together up to half its height, for the people had the will to keep working.
+
+7 [d]When Sanballat, Tobiah, and the Arabs, Ammonites, and Ashdodites heard that the repair to the walls of Jerusalem was progressing and that the gaps were being closed, they became furious. 8 They all plotted together to come and fight against Jerusalem and throw it into confusion. 9 So we prayed to our God and stationed a guard because of them day and night.
+
+10 In Judah, it was said:[e]
+
+The strength of the laborer fails,
+since there is so much rubble.
+We will never be able
+to rebuild the wall.
+
+11 And our enemies said, “They won’t know or see anything until we’re among them and can kill them and stop the work.” 12 When the Jews who lived nearby arrived, they said to us time and again,[f] “Everywhere you turn, they attack[g] us.” 13 So I stationed people behind the lowest sections of the wall, at the vulnerable areas. I stationed them by families with their swords, spears, and bows. 14 After I made an inspection, I stood up and said to the nobles, the officials, and the rest of the people, “Don’t be afraid of them. Remember the great and awe-inspiring Lord, and fight for your countrymen, your sons and daughters, your wives and homes.”
+
+Sword and Trowel
+15 When our enemies heard that we knew their scheme and that God had frustrated it, every one of us returned to his own work on the wall. 16 From that day on, half of my men did the work while the other half held spears, shields, bows, and armor. The officers supported all the people of Judah, 17 who were rebuilding the wall. The laborers who carried the loads worked with one hand and held a weapon with the other. 18 Each of the builders had his sword strapped around his waist while he was building, and the trumpeter was beside me. 19 Then I said to the nobles, the officials, and the rest of the people: “The work is enormous and spread out, and we are separated far from one another along the wall. 20 Wherever you hear the trumpet sound, rally to us there. Our God will fight for us!” 21 So we continued the work, while half of the men were holding spears from daybreak until the stars came out. 22 At that time, I also said to the people, “Let everyone and his servant spend the night inside Jerusalem, so that they can stand guard by night and work by day.” 23 And I, my brothers, my men, and the guards with me never took off our clothes. Each carried his weapon, even when washing.[h]`,
+    reflection: "Nehemiah 4 models leadership that blends dependence on God with practical responsibility. When mockery and plots rose up, Nehemiah prayed (v.9), inspected the work (v.13), organized families to guard vulnerable sections (v.13-14), and set a rhythm: half worked while half guarded (v.16). Leaders spoke truth to fear—'Remember the Lord and fight for your families'—and modeled courage by staying clothed and armed even while washing (v.23). Building well requires both faith and wisdom: pray without ignoring the risks, and prepare without replacing prayer.",
+    application: "Today, translate Nehemiah's pattern into concrete steps for your gate: 1) Pray specifically about the opposition you face. 2) Identify one practical safeguard (remove a temptation, install a blocker, set phone boundaries). 3) Assign accountability—name one brother or family member who will ask you hard questions weekly. 4) Set a daily rhythm: work time + guard/prayer time (e.g., 20 minutes building + 10 minutes prayer). Speak aloud the truth Nehemiah declared: 'Our God will fight for us,' and then do the work God has given you.",
+    prayer: "Lord, give me Nehemiah's steady courage—prayerful dependence paired with practical wisdom. Help me to protect my family and my calling without becoming paranoid. Raise up brothers who will stand guard with me. When opposition mocks or schemes, keep my hands working and my heart trusting. Let me lead with faith and act with discernment. Amen.",
+    mensAllianceValue: "Vigilance: Prepare and protect what God has entrusted to you—combine prayer with sound action."
   }
+  ,{
+    day: 23,
+    book: "Nehemiah",
+    chapter: 5,
+    verses: "1-13",
+    title: "Protecting the People: Justice in Leadership",
+    passage: "When the people complained because some were mortgaging their fields and vineyards to buy grain during the famine, and others were charging interest and profiting from their brothers, Nehemiah confronted the nobles and officials, calling them to stop exacting usury and to restore what they had taken. He challenged them to show compassion and to walk in the fear of our God. Then they agreed, promised in writing, and restored the property and interest.",
+    reflection: "Nehemiah's leadership wasn't only about stones and gates; it was about people. True rebuilding protects the vulnerable and corrects injustice. A leader who ignores exploitation for the sake of speed or appearance has not rebuilt anything lasting. Nehemiah risked reputation and comfort to confront those who were taking advantage of their own people. That is moral courage.",
+    application: "Identify one area where injustice or neglect exists in your sphere (work, family finances, church, neighborhood). Name one practical step you can take to protect the vulnerable this week—an honest conversation, a financial boundary, or an initiative to redistribute resources. Do it with humility and accountability.",
+    prayer: "Lord, give me a heart that sees the vulnerable and the courage to act. Help me confront injustice with wisdom and compassion. Don’t let me protect my reputation while people suffer. Use me to restore what has been taken and to set things right for Your glory. Amen.",
+    mensAllianceValue: "Honor: Stand for truth and protect those who cannot protect themselves."
+  },
+
+  {
+    day: 24,
+    book: "Nehemiah",
+    chapter: 6,
+    verses: "1-14",
+    title: "Refuse the Distraction",
+    passage: "Sanballat, Tobiah, and others tried to intimidate and distract Nehemiah with letters, threats, and false reports. Nehemiah responded by staying focused on the task, refusing invitations designed to intimidate, and trusting God to expose falsehood. He kept building despite the schemes.",
+    reflection: "Leadership attracts distractions designed to stop you. Some are flattering, some are frightening, and some are deceitful. Nehemiah models a posture of discernment—he didn't react to every provocation; he prayed, checked facts, and kept working. Discipline and focus are spiritual weapons.",
+    application: "List the top three distractions that most often derail you (social media, angry texts, unnecessary meetings, gossip). For each, put a practical barrier in place this week. When the distraction comes, pray briefly, then return to your assigned work. Tell a brother to call you out if you cave.",
+    prayer: "Father, when the enemy uses noise and fear to steal my focus, grant me clarity and courage to keep building. Help me distinguish between genuine counsel and schemes to derail me. Protect my mind and hands so I won't be distracted from the work You've given me. Amen.",
+    mensAllianceValue: "Perseverance: Keep your eyes on the work—don't be distracted by flattering or fearful voices."
+  },
+
+  {
+    day: 25,
+    book: "Mark",
+    chapter: 10,
+    verses: "42-45",
+    title: "Servant Leadership: Lead by Serving",
+    passage: "Jesus called them together and said, 'You know that those considered rulers of the Gentiles lord it over them, and their great ones exercise authority over them. Yet it must not be so among you. But whoever wants to become great among you must be your servant; whoever wants to be first must be slave of all. For even the Son of Man came not to be served but to serve and to give His life as a ransom for many.'",
+    reflection: "Nehemiah served while leading—he didn't hoard privileges. True leadership accepts the dirt, the long hours, and the unpopular calls because the goal is the people's good. Jesus redefines greatness as service. When leaders humbly serve, trust and momentum follow.",
+    application: "Do one concrete, low-status act of service this week for someone in your sphere of influence (fix something, make a meal, take a child's chore for a day, sit and listen without offering solutions). Let this be an offering not for praise but to model servant leadership.",
+    prayer: "Lord Jesus, shape my leadership by Your example. When I'm tempted to seek status or ease, remind me that greatness in Your kingdom is measured by service. Make me a servant-leader who builds for people, not for praise. Amen.",
+    mensAllianceValue: "Humility: Lead by serving—put others ahead of yourself."
+  },
+
+  {
+    day: 26,
+    book: "Proverbs",
+    chapter: 15,
+    verses: "22, 24",
+    title: "Plans Succeed with Wise Counsel",
+    passage: "Without counsel plans fail, but with many advisers they succeed. The heart of the wise seeks knowledge, and his ear listens to instruction.",
+    reflection: "Nehemiah gathered supporters, sought permissions, and surrounded the project with counsel and resources. Pride resists counsel; wisdom pursues it. Good plans are refined by many voices, and wise leaders know when to listen and when to act.",
+    application: "Name two people whose counsel you need for your gate. Ask them for a short meeting this week and bring a written plan and one specific question you need answered. Receive their input humbly and update your plan accordingly.",
+    prayer: "Father, give me ears to hear wise counsel and the humility to act on it. Surround me with brothers who speak truth in love. Don't let pride make me ignore correction; let wisdom lead my plans to success. Amen.",
+    mensAllianceValue: "Feedback: Seek wise counsel—it's a mark of strength, not weakness."
+  },
+
+  {
+    day: 27,
+    book: "Philippians",
+    chapter: 2,
+    verses: "3-8",
+    title: "Humility: The Leader's Foundation",
+    passage: "Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Have this mind among yourselves, which is yours in Christ Jesus, who, though He was in the form of God, did not count equality with God a thing to be grasped, but emptied Himself, by taking the form of a servant, being born in the likeness of men.",
+    reflection: "Nehemiah could have used influence for status, but he emptied himself for the sake of God's people. Humility protects leaders from isolation, preserves relationships, and opens the door to real change. Christ's example shows that the path of greatness goes through self-emptying service.",
+    application: "Practice one act of visible humility this week: admit a mistake publicly, thank someone who usually goes unnoticed, or ask for help in front of your team. Notice how humility changes the culture around you.",
+    prayer: "Lord, form in me the mind of Christ. Remove ambition that seeks personal glory. Teach me to consider others more significant and to lead through humble service. Let my leadership point to You, not me. Amen.",
+    mensAllianceValue: "Honor: True esteem comes from serving others, not from being served."
+  },
+
+  {
+    day: 28,
+    book: "Hebrews",
+    chapter: 4,
+    verses: "9-11",
+    title: "Sabbath Special: Rest That Leads to Strength",
+    passage: "There remains, then, a Sabbath-rest for the people of God, for whoever enters God's rest also rests from his own works, just as God did from His. Let us therefore make every effort to enter that rest, so that no one may fall by following the same pattern of disobedience.",
+    reflection: "Nehemiah's leadership combined tireless effort with disciplined dependence on God. Sabbath rest is not passive avoidance of responsibility; it is trusting that God completes what we cannot. For leaders, Sabbath protects perspective—reminding us our worth isn't our work and our identity isn't performance. Rest fuels faithfulness.",
+    application: "Celebrate a Sabbath today with intention. Step away from labor and planned rebuilding tasks. Worship, reflect on God's faithfulness in your rebuilding, and ask what rhythms you need to preserve rest long-term. If possible, set one regular weekly Sabbath that guards your soul and sustains your leadership.",
+    prayer: "Lord, teach me to rest in You. When my identity tempts me to find worth in work alone, remind me that true strength comes from resting in Your finished work. Help me keep Sabbath as a gift that renews my soul and sustains my leadership. Amen.",
+    mensAllianceValue: "Humility: Rest declares dependence on God, not on our own effort."
+  }
+];
+
+export default readings;
 ];
 
 export default readings;
