@@ -395,6 +395,3 @@ Sword and Trowel
 ];
 
 export default readings;
-];
-
-export default readings;
