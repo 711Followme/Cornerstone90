@@ -465,8 +465,7 @@ Sword and Trowel
     verses: "2-4",
     title: "Shepherd with Willingness",
     passage: "Shepherd the flock of God that is among you, exercising oversight—not under compulsion, but willingly; not greedy for sordid gain, but eager to serve; nor yet ruling as lords over those allotted to you, but being examples to the flock.",
-    reflection: "Leaders are called to shepherd, not rule. Nehemiah modeled oversight that served and exemplified. Shepherding requires humility, willingness, and a servant's posture rather than domineering control.
-",
+    reflection: "Leaders are called to shepherd, not rule. Nehemiah modeled oversight that served and exemplified. Shepherding requires humility, willingness, and a servant's posture rather than domineering control.",
     application: "Ask two people under your leadership for honest feedback about how you lead. Listen without defending. Then identify one concrete change you will implement to lead more like a shepherd.",
     prayer: "Lord, make me a shepherd who serves willingly. Strip pride and ambition from my leadership. Let my life be an example that points others to You. Amen.",
     mensAllianceValue: "Humility: Lead by example; shepherd with willingness, not compulsion."
