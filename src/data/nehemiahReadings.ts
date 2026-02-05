@@ -391,6 +391,189 @@ Sword and Trowel
     application: "Celebrate a Sabbath today with intention. Step away from labor and planned rebuilding tasks. Worship, reflect on God's faithfulness in your rebuilding, and ask what rhythms you need to preserve rest long-term. If possible, set one regular weekly Sabbath that guards your soul and sustains your leadership.",
     prayer: "Lord, teach me to rest in You. When my identity tempts me to find worth in work alone, remind me that true strength comes from resting in Your finished work. Help me keep Sabbath as a gift that renews my soul and sustains my leadership. Amen.",
     mensAllianceValue: "Humility: Rest declares dependence on God, not on our own effort."
+  },
+  
+  {
+    day: 29,
+    book: "Nehemiah",
+    chapter: 5,
+    verses: "14-19",
+    title: "Leadership Integrity: Rejecting Personal Gain",
+    passage: "But the earlier leaders who were before me had also been charging the people a tax. I also had gained no profit from the people, because the earlier leaders had placed a heavy burden on the people and taken much from them. I diligently worked on the wall, and we did not buy any land; all my servants were gathered there for the work. At my own expense I supplied the people with food. There were that year and the next year some of the people and the rulers who ate the food I supplied. Still, I didn't demand the governor's food, because the bondage was heavy on this people.",
+    reflection: "Nehemiah refused to use leadership as a way to enrich himself. He modeled sacrificial service—paying the cost so others could be restored. Integrity in leadership protects the vulnerable and sustains long-term trust. A leader who profits from those he serves corrodes the very work he was called to build.",
+    application: "Audit one area where you exercise authority (work, ministry, family). Are there ways you've benefited unfairly? Identify one concrete step to remove or correct that advantage this week—repay, apologize, or remove the privilege.",
+    prayer: "Lord, give me a clean heart and hands. When leadership tempts me toward personal gain, convict me and give me the courage to choose integrity and sacrifice. Use my position to serve, not to profit. Amen.",
+    mensAllianceValue: "Honor: Lead with integrity—protect the trust placed in you."
+  },
+
+  {
+    day: 30,
+    book: "Nehemiah",
+    chapter: 5,
+    verses: "19",
+    title: "Modeling Sacrifice: Feed Those Who Work",
+    passage: "I also said to them, 'We are returning the governor's food and keeping the supplies for the work.' Remember me, my God, for good, for all that I have done for this people.",
+    reflection: "Nehemiah provided for those who labored beside him rather than enriching himself. Leadership that eats with its workers builds solidarity and loyalty. Practical generosity is theological: it declares that people matter more than profit.",
+    application: "This week, practice a tangible act of provision for those doing the work with you—bring a meal, cover a cost, or offer time. Let your generosity be visible and regular, not sporadic and performative.",
+    prayer: "Father, teach me to lead like Nehemiah—willing to bear cost and hardship for the good of the people. Let my leadership be known for generosity and care. Amen.",
+    mensAllianceValue: "Humility: Sacrifice builds unity; leadership serves at cost."
+  },
+
+  {
+    day: 31,
+    book: "Amos",
+    chapter: 5,
+    verses: "24",
+    title: "Justice Over Ritual",
+    passage: "But let justice roll on like a river, and righteousness like an ever-flowing stream.",
+    reflection: "Nehemiah confronted economic injustice among his people; Amos demands that worship without justice is empty. True rebuilding demands structural righteousness—our devotion must produce justice for the vulnerable.",
+    application: "Examine one policy, practice, or habit in your life or organization that affects the marginalized. Take one corrective step this week to promote justice—advocate, give, or change the practice.",
+    prayer: "Lord, let justice flow through my heart and hands. Help me not to mistake ritual for righteousness. Make me a defender of the vulnerable and a pursuer of true justice. Amen.",
+    mensAllianceValue: "Honor: Defend the poor and act justly in all your dealings."
+  },
+
+  {
+    day: 32,
+    book: "Luke",
+    chapter: 12,
+    verses: "15-21",
+    title: "Stewardship: Eyes on Eternity",
+    passage: "Then He said to them, 'Watch out—beware of greed, because life does not consist of an abundance of possessions.' He told them a parable about a rich fool who stored up wealth but was not rich toward God.",
+    reflection: "Nehemiah's reforms protected people from debt and greed; Jesus warns leaders against storing up wealth at the expense of the soul. Stewardship reframes resources as instruments for God's purposes, not status symbols.",
+    application: "Identify one area of financial or material temptation that competes with your calling. Create a plan to redirect resources toward kingdom priorities—giving, mercy, or community support.",
+    prayer: "Father, guard my heart from greed. Teach me to be rich toward You—using possessions to bless others and advance Your kingdom. Make me a wise steward. Amen.",
+    mensAllianceValue: "Trust: Use resources to build others, not to raise yourself."
+  },
+
+  {
+    day: 33,
+    book: "Matthew",
+    chapter: 18,
+    verses: "15-17",
+    title: "Restoration Over Shame",
+    passage: "If your brother sins against you, go and show him his fault in private. If he won't listen, take one or two more with you, that every charge may be established by the testimony of two or three witnesses. If he refuses to listen to them, tell it to the church. If he refuses to listen even to the church, let him be to you like a Gentile and a tax collector.",
+    reflection: "Nehemiah dealt with internal corruption firmly but with community process. Restoring a fallen brother preserves both truth and grace—discipline without reconciliation is incomplete.",
+    application: "Choose one broken relationship where conflict or sin persists. Begin the Matthew 18 process: pray, seek private conversation, and if needed, involve trusted brothers to pursue restoration.",
+    prayer: "Lord, give me courage to confront in love and gentleness. Help me seek restoration rather than revenge. Teach me to pursue reconciliation according to Your ways. Amen.",
+    mensAllianceValue: "Feedback: Confront in love; pursue restoration, not humiliation."
+  },
+
+  {
+    day: 34,
+    book: "1 Peter",
+    chapter: 5,
+    verses: "2-4",
+    title: "Shepherd with Willingness",
+    passage: "Shepherd the flock of God that is among you, exercising oversight—not under compulsion, but willingly; not greedy for sordid gain, but eager to serve; nor yet ruling as lords over those allotted to you, but being examples to the flock.",
+    reflection: "Leaders are called to shepherd, not rule. Nehemiah modeled oversight that served and exemplified. Shepherding requires humility, willingness, and a servant's posture rather than domineering control.
+",
+    application: "Ask two people under your leadership for honest feedback about how you lead. Listen without defending. Then identify one concrete change you will implement to lead more like a shepherd.",
+    prayer: "Lord, make me a shepherd who serves willingly. Strip pride and ambition from my leadership. Let my life be an example that points others to You. Amen.",
+    mensAllianceValue: "Humility: Lead by example; shepherd with willingness, not compulsion."
+  },
+
+  {
+    day: 35,
+    book: "Micah",
+    chapter: 6,
+    verses: "8",
+    title: "Walk Humbly, Do Justice, Love Mercy",
+    passage: "He has told you, O man, what is good; and what does Yahweh require of you but to do justice, to love mercy, and to walk humbly with your God?",
+    reflection: "Nehemiah's rebuilding is a picture of Micah's ethic: justice, mercy, and humility. Leadership rooted in these three produces communities where walls protect the vulnerable and honor God.",
+    application: "Write the three phrases—'do justice, love mercy, walk humbly'—on a card. Place it where you'll see it daily and ask: How did I practice each today? Make one small change today to embody one of them.",
+    prayer: "Father, put Micah's ethic in my heart. Help me to do justice, to love mercy, and to walk humbly with You. Let my rebuilding work reflect these three practices. Amen.",
+    mensAllianceValue: "Honor: Live justly, love mercy, and walk humbly before God and others."
+  },
+  
+   {
+    day: 36,
+    book: "Nehemiah",
+    chapter: 8,
+    verses: "1-8",
+    title: "The Word Restores",
+    passage: "All the people were gathered as one in the square before the Water Gate. They asked Ezra the scribe to bring the Book of the Law of Moses that the Lord had commanded Israel. Ezra read from it before the square from early morning till midday, in the presence of the men and the women and those who could understand. And all the people listened attentively to the Book of the Law. Ezra opened the book in the sight of all the people, for he was above all the people, and when he opened it all the people stood. And Ezra blessed the Lord, the great God, and all the people answered, 'Amen, Amen,' lifting up their hands. Then they bowed their heads and worshiped the Lord with their faces to the ground. They read from the book, from the Law of God, clearly, and they gave the sense, so that the people understood the reading.",
+    reflection: "When God's word is brought back into the center of public life, restoration follows. The people had heard before; now they listened, understood, and responded. Scripture read plainly and explained produces spiritual awakening and practical change.",
+    application: "Set a daily rhythm this week to read a passage slowly and then explain its sense aloud to yourself or a brother. Note one concrete instruction and obey it today.",
+    prayer: "Lord, open my ears and heart to Your Word. Let Scripture shape my actions and restore what is broken in me. Amen.",
+    mensAllianceValue: "Discipline: Place God's Word at the center of habit and practice."
+  },
+
+  {
+    day: 37,
+    book: "Nehemiah",
+    chapter: 8,
+    verses: "9-12",
+    title: "Joy and Repentance",
+    passage: "And Nehemiah, who was the governor, and Ezra the priest and scribe, and the Levites who taught the people said to all the people, 'This day is holy to the Lord your God; do not mourn or weep.' For all the people wept when they heard the words of the Law. Then he said to them, 'Go your way. Eat the fat and drink sweet wine and send portions to anyone who has nothing ready, for this day is holy to our Lord; and do not be grieved, for the joy of the Lord is your strength.'",
+    reflection: "True repentance leads to renewed joy. The community moved from mourning to celebration because they encountered mercy together—a healthy rhythm of sorrow, confession, and rejoicing.",
+    application: "Confess one thing you've been hiding. Then celebrate God's mercy—share a simple meal or encouragement with someone who needs hope this week.",
+    prayer: "Father, convert my sorrow into holy joy as I confess and receive Your mercy. Give me courage to celebrate Your grace publicly. Amen.",
+    mensAllianceValue: "Encouragement: Celebrate God's mercy and find strength in joy together."
+  },
+
+  {
+    day: 38,
+    book: "Nehemiah",
+    chapter: 9,
+    verses: "1-3",
+    title: "Corporate Confession",
+    passage: "Now on the twenty-fourth day of this month the people of Israel were assembled with fasting and in sackcloth, and with earth on their heads. And the Israelites separated themselves from all foreigners and stood and confessed their sins and the iniquities of their fathers. They stood up in their place and read from the Book of the Law of the Lord their God for four hours; and for another four hours they confessed and worshiped the Lord their God.",
+    reflection: "Public confession humbles a people and creates a foundation for lasting reform. Where private denial rules, public honesty begins healing.",
+    application: "Gather a small group or a trusted brother and practice a short time of confession and prayer. Make one accountability step you will take this week.",
+    prayer: "God, grant me humility to confess honestly and the resolve to change. Shape me in communal honesty and mutual care. Amen.",
+    mensAllianceValue: "Honesty: Corporate confession dismantles pride and opens the way for reform."
+  },
+
+  {
+    day: 39,
+    book: "Nehemiah",
+    chapter: 9,
+    verses: "32-38",
+    title: "Covenant Renewal",
+    passage: "Now therefore, our God, the great, the mighty, and awesome God, who keeps covenant and steadfast love, do not let all the suffering seem small before you, which has come upon us, our kings, our princes, our priests, and our prophets and our fathers, and all Your people, from the days of the kings of Assyria until this day. Yet You are just in all that has come upon us, for You have acted faithfully and we have acted wickedly; our kings, our princes, our priests, and our fathers have not kept Your law. But You are just in all that has come upon us; for You have dealt faithfully and we have done wickedly.",
+    reflection: "The prayer rehearses God's faithfulness beside the people's failure and then petitions God to act. Recalling God's faithfulness frames our repentance and fuels renewed commitment.",
+    application: "Write three covenant commitments for your home or personal life and post them where you'll see them daily. Ask a brother to hold you to them.",
+    prayer: "Lord, You are faithful though we fail. By Your Spirit, help me keep covenant commitments and live transparently before others. Amen.",
+    mensAllianceValue: "Trust: Public commitments strengthen personal fidelity to God and others."
+  },
+
+  {
+    day: 40,
+    book: "Nehemiah",
+    chapter: 10,
+    verses: "28-39",
+    title: "Concrete Commitments",
+    passage: "And the rest of the people—priests, Levites, gatekeepers, singers, temple servants, and all who had separated themselves from the peoples of the lands to the law of God, their wives, their sons, and their daughters, everyone who had knowledge and understanding—joined their brethren, their nobles, and entered into a curse and an oath to walk in God's law and observe His rules and commands. They made pledges about contributions to the temple, Sabbath observance, and the support of the Levites.",
+    reflection: "Renewal must translate into structures: giving, worship rhythms, and specific guardrails. Vows turned into systems that protected the work.",
+    application: "Choose one spiritual conviction and make it practical: automate a tithe, schedule weekly family worship, or set a Sabbath boundary. Tell one brother your plan.",
+    prayer: "Father, help me convert devotion into daily structures that endure under pressure. Give me the discipline to keep them. Amen.",
+    mensAllianceValue: "Discipline: Turn conviction into sustainable practices."
+  },
+
+  {
+    day: 41,
+    book: "Nehemiah",
+    chapter: 12,
+    verses: "27-43",
+    title: "Dedication and Joy",
+    passage: "And at the dedication of the wall of Jerusalem they sought the Levites from all their places to bring them to Jerusalem to celebrate the dedication with gladness, with thanksgiving and with singing, with cymbals, stringed instruments, and harps. And the joy of Jerusalem was heard afar off. They offered great sacrifices and rejoiced, for God had given them great joy.",
+    reflection: "Dedication gathers the community to give thanks and remember what God has done. Public rejoicing seals restoration into memory and identity.",
+    application: "Plan a simple dedication in your home—testimony, thanksgiving, prayer—and invite someone who needs to see God's work in your life.",
+    prayer: "Thank You, Lord, for every restored place. Give us grateful hearts and voices to praise You publicly. Amen.",
+    mensAllianceValue: "Encouragement: Public celebration builds hope and invites others to follow."
+  },
+
+  {
+    day: 42,
+    book: "Nehemiah",
+    chapter: 13,
+    verses: "4-14",
+    title: "Guarding the Reforms",
+    passage: "But when the people of Israel and the priests came to Jerusalem, they found the evil that Eliashib had done: he had prepared a chamber for Tobiah. So I chased him from the house; and I threw all his household goods out of the chamber. I also got rid of the governor's food, and I gave orders that the chambers be purified and the doors be restored; then I brought back the ministers to their duty.",
+    reflection: "Restoration is fragile if unattended. Nehemiah returned to remove compromise and reinstate covenant life. Guarding progress is part of faithful leadership.",
+    application: "Perform a quick 'compromise audit'—routines, media, finances, relationships. Remove one compromise this week and restore a healthy practice.",
+    prayer: "Lord, give me vigilance and courage to guard what You've renewed. Help me remove anything that corrodes revival. Amen.",
+    mensAllianceValue: "Vigilance: Reforms require ongoing attention and courage to maintain."
   }
 ];
 
